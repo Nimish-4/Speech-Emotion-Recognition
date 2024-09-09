@@ -1,0 +1,1 @@
+This is a live speech emotion recognition system. The CNN model has been deployed using Flask. There is an option to either record audio or to upload a .wav file.

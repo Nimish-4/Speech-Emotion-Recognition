@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Record Audio</title>
+    <script src="{{ url_for('static', filename='js/record.js') }}"></script>
+</head>
+<body>
+    <h1>Record an Audio Clip</h1>
+
+    <!-- Recording controls -->
+    <button onclick="startRecording()">Start Recording</button>
+    <button onclick="stopRecording()">Stop Recording</button>
+
+    <!-- Button to go back to the main page -->
+    <button onclick="window.location.href='/'">Back to Home</button>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Audio</title>
+</head>
+<body>
+    <h1>Upload an Audio Clip</h1>
+    
+    <!-- Upload form -->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="audio_file" accept=".wav, .mp3">
+        <button type="submit">Upload</button>
+    </form>
+    
+    <!-- Button to go back to the main page -->
+    <button onclick="window.location.href='/'">Back to Home</button>
+</body>
+</html>
